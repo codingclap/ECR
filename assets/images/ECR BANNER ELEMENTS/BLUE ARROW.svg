@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 35.86 35.56">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-1, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        fill: #4276f6;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="404.76" y="-198.72" width="1920" height="6094.06"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <polygon class="cls-1" points="404.76 838.58 404.76 1328.45 404.76 1551.8 404.76 2328.24 2324.76 2328.24 2324.76 1551.8 2324.76 1328.45 2324.76 838.58 404.76 838.58"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-1" x="404.76" y="-198.65" width="1920" height="6094.06"/>
+    </clipPath>
+  </defs>
+  <circle class="cls-3" cx="17.93" cy="17.78" r="16.44"/>
+  <line class="cls-2" x1="22.69" y1="11.99" x2="10.94" y2="25.99"/>
+  <polyline class="cls-2" points="12.97 12.21 22.69 11.76 24.27 20.8"/>
+</svg>

@@ -1,0 +1,417 @@
+body { 
+  color: #000000;
+  box-sizing: border-box;
+  font-family: poppins-light;
+}
+
+:root {
+  --black: #000;
+  --white: #fff;
+  --blue: #4193d1;
+  --primary: #ffc514;
+  --primary2: #d4af37;
+  --red: #ff6200;
+  --dark: #2b2a2b;
+  --light-dark: #282828;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link {
+  color: #000000;
+}
+.navbar-nav {
+  column-gap: 1.5em;
+}
+@font-face {
+  font-family: poppins-light;
+  src: url(../fonts/Poppins-Light.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: popping-regular;
+  src: url(../fonts/Poppins-Regular.ttf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: popping-medium;
+  src: url(../fonts/Poppins-Medium.ttf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: popping-semibold;
+  src: url(../fonts/Poppins-SemiBold.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: popping-bold;
+  src: url(../fonts/Poppins-Bold.ttf);
+  font-weight: 700;
+}
+ 
+
+@font-face {
+  font-family: roboto-light;
+  src: url(../fonts/Roboto-Light.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: roboto-regular;
+  src: url(../fonts/Roboto-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: roboto-medium;
+  src: url(../fonts/Roboto-Medium.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: roboto-bold;
+  src: url(../fonts/Roboto-Bold.ttf);
+  font-weight: 400;
+}
+
+
+
+/********** Font Family - Variable *********/
+[data-font-style="poppins-light"] {
+  font-family: Poppins-Light;
+}
+[data-font-style="popping-regular"] {
+  font-family: popping-regular;
+}
+[data-font-style="popping-medium"] {
+  font-family: popping-medium;
+}
+[data-font-style="popping-bold"] {
+  font-family: popping-bold;
+}
+
+
+
+[data-font-style="roboto-light"] {
+  font-family:roboto-light;
+}
+[data-font-style="roboto-regular"] {
+  font-family: roboto-regular;
+}
+[data-font-style="roboto-medium"] {
+  font-family:roboto-medium;
+}
+[data-font-style="roboto-bold"] {
+  font-family: roboto-bold;
+}
+ 
+
+/********** Font Family - Variable *********/
+/********** Default Color *********/
+/*** BG Color **/
+[data-bgcolor="white"] {
+  background-color: #fff;
+}
+[data-color="dark-blue"]{
+  background-color: #006BAD;
+}
+[data-bgcolor="blue"] {
+  background-color: #0082CF;
+}
+
+[data-bgcolor="primary"] {
+  background-color: #FF5F00;
+}
+
+[data-bgcolor="primary2"] {
+  background-color: #d4af37;
+}
+
+[data-bgcolor="gray"] {
+  background-color: #f0f0f0;
+}
+[data-bgcolor="lightgray"] {
+  background-color:rgba(0, 130, 207, 0.05);
+}
+[data-bgcolor="dark"] {
+  background-color: #2b2a2b;
+}
+
+[data-bgcolor="footer"] {
+  background-color: #F1F1F1;
+}
+
+/** Color **/
+[data-color="black"] {
+  color: #000000;
+}
+
+[data-color="primary"] {
+  color: #FF5F00;
+}
+
+[data-color="red"] {
+  color: #ff6200;
+}
+
+[data-color="primary2"] {
+  color: #d4af37;
+}
+
+[data-color="light-dark"] {
+  color: #282828;
+}
+
+[data-color="light"] {
+  color: #6B6C6F;
+}
+
+[data-color="blue"] {
+  color: #0082CF;
+}
+
+[data-color="darkblue"] {
+  color: #003B74;
+}
+
+[data-color="white"] {
+  color: #fff;
+}
+[data-color="redish"] {
+  color: #FF7D1A;
+}
+
+/********** Default Color *********/
+
+/********** Default Line Height *********/
+[line-height="1.8em"] {
+  line-height: 1.8em;
+}
+[line-height="1.7em"] {
+  line-height: 1.7em;
+}
+[line-height="1.6em"] {
+  line-height: 1.6em;
+}
+
+[line-height="1.5em"] {
+  line-height: 1.5em;
+}
+
+[line-height="1.4em"] {
+  line-height: 1.4em;
+}
+
+[line-height="1.3em"] {
+  line-height: 1.3em;
+}
+
+[line-height="1.2em"] {
+  line-height: 1.2em;
+}
+
+/********** Default Line Height*********/
+
+
+/********** Default Heading *********/
+/**** EM Size ***/
+[data-heading="7em"] {
+  font-size: 7em;
+}
+
+[data-heading="5em"] {
+  font-size: 5em;
+}
+
+[data-heading="4.5em"] {
+  font-size: 4.5em;
+}
+
+[data-heading="4em"] {
+  font-size: 4em;
+}
+
+[data-heading="3.5em"] {
+  font-size: 3.5em;
+}
+
+[data-heading="3em"] {
+  font-size: 3em;
+}
+
+[data-heading="2.5em"] {
+  font-size: 2.5em;
+}
+
+/**** Pixels Size ***/
+[data-heading="30px"] {
+  font-size: 30px;
+}
+
+[data-heading="28px"] {
+  font-size: 28px;
+}
+
+[data-heading="25px"] {
+  font-size: 25px;
+}
+
+[data-heading="24px"] {
+  font-size: 24px;
+}
+
+[data-heading="22px"] {
+  font-size: 22px;
+}
+
+[data-heading="20px"] {
+  font-size: 20px;
+}
+
+[data-heading="18px"] {
+  font-size: 18px;
+}
+
+/********** Default Heading *********/
+
+/********** Default paragraph *********/
+[data-para="22px"] {
+  font-size: 22px;
+}
+
+[data-para="20px"] {
+  font-size: 20px;
+}
+
+[data-para="18px"] {
+  font-size: 18px;
+}
+
+[data-para="17px"] {
+  font-size: 17px;
+}
+
+[data-para="16px"] {
+  font-size: 16px;
+}
+
+[data-para="15px"] {
+  font-size: 15px;
+}
+
+[data-para="1.4em"] {
+  font-size: 1.4em;
+}
+
+[data-para="1.3em"] {
+  font-size: 1.3em;
+}
+
+[data-para="1.2em"] {
+  font-size: 1.2em;
+}
+
+/********** Default paragraph *********/
+
+
+
+
+/****** Font Family *******/
+
+@media (max-width:766px) {
+
+  [data-heading="30px"] {
+    font-size: 25px;
+  }
+
+  [data-heading="28px"] {
+    font-size: 25px;
+  }
+
+
+  [data-para="25px"] {
+    font-size: 22px;
+  }
+
+  [data-para="22px"] {
+    font-size: 20px;
+  }
+
+  [data-para="20px"] {
+    font-size: 18px;
+  }
+
+  [data-para="18px"] {
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width:500px) {
+  [data-heading="25px"] {
+    font-size: 22px;
+  }
+
+  [data-heading="22px"] {
+    font-size: 20px;
+  }
+
+  [data-heading="18px"] {
+    font-size: 16px;
+  }
+
+  [data-para="17px"] {
+    font-size: 16px;
+  }
+
+  [data-para="22px"] {
+    font-size: 16px;
+  }
+
+  [data-para="20px"] {
+    font-size: 16px;
+  }
+}
+
+
+.button--primary {
+  background-color: #FF5F00;
+  border-color: #FF5F00;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.cta-pair__button a{
+  transition: all 0.3s ease-in-out;
+}
+.cta-pair__button a:hover{
+  color: #fff;
+  background-color: #3a3a3a;
+  border-color: #3a3a3a;
+}
+.button--secondary {
+  background-color: #fff;
+  border-color: #fff;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: inherit;
+}
+
+.button {
+  font-family: popping-semibold;
+  font-size: 16px;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  line-height: initial;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+/****** Font Family ******/
