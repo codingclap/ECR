@@ -295,7 +295,9 @@ body {
 [data-para="15px"] {
   font-size: 15px;
 }
-
+[data-para="14px"] {
+  font-size: 14px;
+}
 [data-para="1.4em"] {
   font-size: 1.4em;
 }
