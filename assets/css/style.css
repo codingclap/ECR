@@ -140,6 +140,13 @@
      background-image: url('../images/banner-2.svg'); */
 
 }
+.layout-one-content{
+     position: absolute;
+     top:100px;
+     left:150px;
+     width: 1600px;
+     margin:0 auto;
+}
 
 .home-layout-three {
      position: relative;
