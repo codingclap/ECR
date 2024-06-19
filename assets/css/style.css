@@ -103,6 +103,7 @@
      .navbar-section {
           min-height: 103px;
      }
+
 }
 
 /*
@@ -128,20 +129,33 @@
      background-repeat: no-repeat;
      background-image: url('../images/banner-1.svg');
 } */
-.home-layout-one  .layout-one-content{
+.home-layout-one .layout-one-content {
      position: absolute;
-     top:100px;
-     left:175px; 
-     z-index: 2; 
+     top: 100px;
+     left: 175px;
+     z-index: 2;
 }
 
-@media (max-width:1200px){
-     .home-layout-one .layout-one-content { 
-          top: 30px;
+@media (max-width:1200px) {
+     .home-layout-one .layout-one-content {
+          top: 40px;
           left: 0;
-          padding:10px 20px;
+          padding: 10px 20px;
      }
 }
+
+@media (max-width:768px) {
+     .home-layout-one {
+          position: relative;
+          height: calc(100vh - 0em);
+          background-size: cover;
+          width: 100%;
+          background-position: top center;
+          background-repeat: no-repeat;
+          background-image: url('../images/banner-1.svg');
+     }
+}
+
 /*
 #################################
 ##       Section 1 Closed      ##   
