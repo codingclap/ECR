@@ -147,7 +147,7 @@
 @media (max-width:768px) {
      .home-layout-one {
           position: relative;
-          height: calc(100vh - 0em);
+          height: 70vh;
           background-size: cover;
           width: 100%;
           background-position: top center;
