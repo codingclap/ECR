@@ -177,7 +177,7 @@
 
 @media (max-width:768px) {
      .home-layout-two {
-          height: calc(100vh + 14em);
+          height: 70vh;
           background-size: cover;
           width: 100%;
           background-position: top center;
@@ -199,7 +199,7 @@
 
 @media (max-width:768px) {
      .home-layout-three {
-          height: calc(100vh - 0em);
+          height: 70vh;
           background-size: cover;
           width: 100vw;
           background-position: top center;
