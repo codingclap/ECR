@@ -175,6 +175,16 @@
 
 }
 
+@media (max-width:768px) {
+     .home-layout-two {
+          height: calc(100vh + 14em);
+          background-size: cover;
+          width: 100%;
+          background-position: top center;
+          background-repeat: no-repeat;
+          background-image: url('../images/banner-2.svg');
+     }
+}
 
 .home-layout-three {
      position: relative;
@@ -185,4 +195,15 @@
      background-position: top center;
      background-repeat: no-repeat;
      background-image: url('../images/banner-4.svg'); */
+}
+
+@media (max-width:768px) {
+     .home-layout-three {
+          height: calc(100vh - 0em);
+          background-size: cover;
+          width: 100vw;
+          background-position: top center;
+          background-repeat: no-repeat;
+          background-image: url('../images/banner-3.svg');
+     }
 }
