@@ -136,6 +136,16 @@
      z-index: 2;
 }
 
+.layout-one-content .cta img{
+     width:100%;
+     max-width: 25px;
+     transition: 0.2s ease-in-out;
+}
+ 
+.layout-one-content .cta a:hover img{
+     transform: rotate(50deg);
+     transition: 0.2s ease-in-out;
+}
 @media (max-width:1200px) {
      .home-layout-one .layout-one-content {
           top: 40px;
