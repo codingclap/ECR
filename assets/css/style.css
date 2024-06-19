@@ -131,7 +131,8 @@
 .home-layout-one  .layout-one-content{
      position: absolute;
      top:100px;
-     left:175px;  
+     left:175px; 
+     z-index: 2; 
 }
 
 @media (max-width:1200px){
