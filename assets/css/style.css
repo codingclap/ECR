@@ -131,9 +131,7 @@
 .home-layout-one  .layout-one-content{
      position: absolute;
      top:100px;
-     left:150px;
-     width: 1600px;
-     margin:0 auto;
+     left:150px;  
 }
 .home-layout-two {
      position: relative;
