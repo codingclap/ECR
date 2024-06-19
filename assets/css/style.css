@@ -131,8 +131,23 @@
 .home-layout-one  .layout-one-content{
      position: absolute;
      top:100px;
-     left:150px;  
+     left:175px;  
 }
+
+@media (max-width:1200px){
+     .home-layout-one .layout-one-content { 
+          top: 30px;
+          left: 0;
+          padding:10px 20px;
+     }
+}
+/*
+#################################
+##       Section 1 Closed      ##   
+#################################
+*/
+
+
 .home-layout-two {
      position: relative;
      top: 0;
