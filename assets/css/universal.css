@@ -227,18 +227,7 @@ body {
 [data-heading="4em"] {
   font-size: 4em;
 }
-
-[data-heading="3.5em"] {
-  font-size: 3.5em;
-}
-
-[data-heading="3em"] {
-  font-size: 3em;
-}
-
-[data-heading="2.5em"] {
-  font-size: 2.5em;
-}
+ 
 
 /**** Pixels Size ***/
 [data-heading="30px"] {
@@ -257,17 +246,7 @@ body {
   font-size: 24px;
 }
 
-[data-heading="22px"] {
-  font-size: 22px;
-}
-
-[data-heading="20px"] {
-  font-size: 20px;
-}
-
-[data-heading="18px"] {
-  font-size: 18px;
-}
+ 
 
 /********** Default Heading *********/
 
@@ -313,107 +292,29 @@ body {
 /********** Default paragraph *********/
 
 
-
+@media(max-width:991px){
+  [data-heading="4.5em"] {
+    font-size: 2.5em;
+  }
+  [data-heading="30px"]{
+    font-size: 20px;
+  }
+}
 
 /****** Font Family *******/
 
 @media (max-width:766px) {
-
-  [data-heading="30px"] {
-    font-size: 25px;
+  [data-heading="4.5em"] {
+    font-size: 2em;
   }
-
-  [data-heading="28px"] {
-    font-size: 25px;
-  }
-
-
-  [data-para="25px"] {
-    font-size: 22px;
-  }
-
-  [data-para="22px"] {
-    font-size: 20px;
-  }
-
-  [data-para="20px"] {
+  [data-heading="30px"]{
     font-size: 18px;
   }
-
-  [data-para="18px"] {
-    font-size: 16px;
-  }
-
+  
 }
 
 @media (max-width:500px) {
-  [data-heading="25px"] {
-    font-size: 22px;
-  }
-
-  [data-heading="22px"] {
-    font-size: 20px;
-  }
-
-  [data-heading="18px"] {
-    font-size: 16px;
-  }
-
-  [data-para="17px"] {
-    font-size: 16px;
-  }
-
-  [data-para="22px"] {
-    font-size: 16px;
-  }
-
-  [data-para="20px"] {
-    font-size: 16px;
-  }
+  
 }
 
-
-.button--primary {
-  background-color: #FF5F00;
-  border-color: #FF5F00;
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-}
-.cta-pair__button a{
-  transition: all 0.3s ease-in-out;
-}
-.cta-pair__button a:hover{
-  color: #fff;
-  background-color: #3a3a3a;
-  border-color: #3a3a3a;
-}
-.button--secondary {
-  background-color: #fff;
-  border-color: #fff;
-  color: #000000;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-a:hover {
-  color: inherit;
-}
-
-.button {
-  font-family: popping-semibold;
-  font-size: 16px;
-  border-radius: 10px;
-  border-width: 1px;
-  border-style: solid;
-  line-height: initial;
-  cursor: pointer;
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-
-/****** Font Family ******/
+ 
