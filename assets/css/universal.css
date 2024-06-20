@@ -1,4 +1,4 @@
-body { 
+body {
   color: #000000;
   box-sizing: border-box;
   font-family: poppins-light;
@@ -14,22 +14,28 @@ body {
   --dark: #2b2a2b;
   --light-dark: #282828;
 }
-.navbar-nav .nav-link.active, .navbar-nav .nav-link {
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link {
   color: #000000;
 }
+
 .navbar-nav {
   column-gap: 1.5em;
 }
+
 @font-face {
   font-family: poppins-light;
   src: url(../fonts/Poppins-Light.ttf);
   font-weight: 700;
 }
+
 @font-face {
   font-family: popping-regular;
   src: url(../fonts/Poppins-Regular.ttf);
   font-weight: 200;
 }
+
 @font-face {
   font-family: popping-medium;
   src: url(../fonts/Poppins-Medium.ttf);
@@ -47,18 +53,20 @@ body {
   src: url(../fonts/Poppins-Bold.ttf);
   font-weight: 700;
 }
- 
+
 
 @font-face {
   font-family: roboto-light;
   src: url(../fonts/Roboto-Light.ttf);
   font-weight: 400;
 }
+
 @font-face {
   font-family: roboto-regular;
   src: url(../fonts/Roboto-Regular.ttf);
   font-weight: 400;
 }
+
 @font-face {
   font-family: roboto-medium;
   src: url(../fonts/Roboto-Medium.ttf);
@@ -77,12 +85,15 @@ body {
 [data-font-style="poppins-light"] {
   font-family: Poppins-Light;
 }
+
 [data-font-style="popping-regular"] {
   font-family: popping-regular;
 }
+
 [data-font-style="popping-medium"] {
   font-family: popping-medium;
 }
+
 [data-font-style="popping-bold"] {
   font-family: popping-bold;
 }
@@ -90,18 +101,21 @@ body {
 
 
 [data-font-style="roboto-light"] {
-  font-family:roboto-light;
+  font-family: roboto-light;
 }
+
 [data-font-style="roboto-regular"] {
   font-family: roboto-regular;
 }
+
 [data-font-style="roboto-medium"] {
-  font-family:roboto-medium;
+  font-family: roboto-medium;
 }
+
 [data-font-style="roboto-bold"] {
   font-family: roboto-bold;
 }
- 
+
 
 /********** Font Family - Variable *********/
 /********** Default Color *********/
@@ -109,9 +123,11 @@ body {
 [data-bgcolor="white"] {
   background-color: #fff;
 }
-[data-color="dark-blue"]{
+
+[data-color="dark-blue"] {
   background-color: #006BAD;
 }
+
 [data-bgcolor="blue"] {
   background-color: #0082CF;
 }
@@ -127,9 +143,11 @@ body {
 [data-bgcolor="gray"] {
   background-color: #f0f0f0;
 }
+
 [data-bgcolor="lightgray"] {
-  background-color:rgba(0, 130, 207, 0.05);
+  background-color: rgba(0, 130, 207, 0.05);
 }
+
 [data-bgcolor="dark"] {
   background-color: #2b2a2b;
 }
@@ -174,6 +192,7 @@ body {
 [data-color="white"] {
   color: #fff;
 }
+
 [data-color="redish"] {
   color: #FF7D1A;
 }
@@ -184,9 +203,11 @@ body {
 [line-height="1.8em"] {
   line-height: 1.8em;
 }
+
 [line-height="1.7em"] {
   line-height: 1.7em;
 }
+
 [line-height="1.6em"] {
   line-height: 1.6em;
 }
@@ -227,7 +248,7 @@ body {
 [data-heading="4em"] {
   font-size: 4em;
 }
- 
+
 
 /**** Pixels Size ***/
 [data-heading="30px"] {
@@ -246,7 +267,7 @@ body {
   font-size: 24px;
 }
 
- 
+
 
 /********** Default Heading *********/
 
@@ -274,9 +295,11 @@ body {
 [data-para="15px"] {
   font-size: 15px;
 }
+
 [data-para="14px"] {
   font-size: 14px;
 }
+
 [data-para="1.4em"] {
   font-size: 1.4em;
 }
@@ -291,14 +314,30 @@ body {
 
 /********** Default paragraph *********/
 
+@media(max-width:1200px) {
 
-@media(max-width:991px){
+  [data-heading="4em"] {
+    font-size: 3em;
+  }
+
+  [data-heading="25px"] {
+    font-size: 20px;
+  }
+}
+
+@media(max-width:991px) {
   [data-heading="4.5em"] {
     font-size: 3em;
   }
-  [data-heading="30px"]{
+
+  [data-heading="30px"] {
     font-size: 20px;
   }
+
+  [data-heading="4em"] {
+    font-size: 3em;
+  }
+
 }
 
 /****** Font Family *******/
@@ -307,22 +346,18 @@ body {
   [data-heading="4.5em"] {
     font-size: 2.5em;
   }
-  [data-heading="30px"]{
+
+  [data-heading="30px"] {
     font-size: 18px;
   }
-  
+
 }
 
 @media (max-width:500px) {
-   
-  [data-heading="30px"]{
+
+  [data-heading="30px"] {
     font-size: 16px;
   }
 }
 
-@media (max-width:425px) {
-   
-   
-}
-
- 
+@media (max-width:425px) {}
