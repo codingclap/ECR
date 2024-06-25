@@ -125,7 +125,7 @@ body {
 }
 
 [data-color="dark-blue"] {
-  background-color: #006BAD;
+  background-color: #006BAD;#374486
 }
 
 [data-bgcolor="blue"] {
@@ -165,37 +165,11 @@ body {
   color: #333333;
 }
 
-[data-color="red"] {
-  color: #ff6200;
-}
-
-[data-color="primary2"] {
-  color: #d4af37;
-}
-
-[data-color="light-dark"] {
-  color: #282828;
-}
-
-[data-color="light"] {
-  color: #6B6C6F;
-}
-
 [data-color="blue"] {
-  color: #0082CF;
+  color: #374486;
 }
 
-[data-color="darkblue"] {
-  color: #003B74;
-}
-
-[data-color="white"] {
-  color: #fff;
-}
-
-[data-color="redish"] {
-  color: #FF7D1A;
-}
+ 
 
 /********** Default Color *********/
 
