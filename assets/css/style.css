@@ -218,22 +218,26 @@
 @media(max-width:1200px) {
      .home-layout-two .layout-two-content {
           top: 35%;
-          left: 40px;
-          max-width: 400px;
+          left: 0px;
+          max-width: 500px;
+          padding: 0px 40px;
      }
 
      .home-layout-two .layout-two-sub-content {
-          right: 40px;
-          max-width: 400px;
+          right: 0px;
+          max-width: 500px;
+          padding: 0px 40px;
      }
  
 }
+@media (max-width:991px) {
 
+}
 @media (max-width:768px) {
      .home-layout-two .layout-two-content {
           top: 30%;
-          left: 20px;
-          max-width: fit-content;
+          left: 0px;
+           
      }
 
      .home-layout-two {
