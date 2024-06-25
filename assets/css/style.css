@@ -237,9 +237,12 @@
      .home-layout-two .layout-two-content {
           top: 30%;
           left: 0px;
-           
+          padding: 0px 20px;
      }
-
+     .home-layout-two .layout-two-sub-content { 
+          padding: 0px 20px;
+          left:0;
+     }
      .home-layout-two {
           height: calc(100vh - 0em);
           background-size: cover;
