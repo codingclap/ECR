@@ -224,6 +224,9 @@ body {
   font-size: 4em;
 }
 
+[data-heading="3.7em"] {
+  font-size: 3.7em;
+}
 
 /**** Pixels Size ***/
 [data-heading="30px"] {
@@ -291,7 +294,7 @@ body {
 
 @media(max-width:1200px) {
 
-  [data-heading="4em"] {
+  [data-heading="3.7em"] {
     font-size: 3em;
   }
 
@@ -321,7 +324,7 @@ body {
     font-size: 20px;
   }
 
-  [data-heading="4em"] {
+  [data-heading="3.7em"] {
     font-size: 2.5em;
   }
 
@@ -348,7 +351,7 @@ body {
     font-size: 16px;
   }
 
-  [data-heading="4em"] {
+  [data-heading="3.7em"] {
     font-size: 2em;
   }
 }
