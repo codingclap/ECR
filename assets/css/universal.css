@@ -125,7 +125,8 @@ body {
 }
 
 [data-color="dark-blue"] {
-  background-color: #006BAD;#374486
+  background-color: #006BAD;
+  #374486
 }
 
 [data-bgcolor="blue"] {
@@ -169,7 +170,7 @@ body {
   color: #374486;
 }
 
- 
+
 
 /********** Default Color *********/
 
@@ -297,12 +298,21 @@ body {
   [data-heading="25px"] {
     font-size: 20px;
   }
+
+  [data-para="22px"] {
+    font-size: 20px;
+  }
 }
 
 @media(max-width:991px) {
   [data-heading="25px"] {
     font-size: 16px;
-}
+  }
+
+  [data-para="22px"] {
+    font-size: 18px;
+  }
+
   [data-heading="4.5em"] {
     font-size: 3em;
   }
@@ -323,7 +333,9 @@ body {
   [data-heading="4.5em"] {
     font-size: 2.5em;
   }
-
+  [data-para="22px"] {
+    font-size: 16px;
+  }
   [data-heading="30px"] {
     font-size: 18px;
   }
@@ -335,6 +347,7 @@ body {
   [data-heading="30px"] {
     font-size: 16px;
   }
+
   [data-heading="4em"] {
     font-size: 2em;
   }

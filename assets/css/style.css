@@ -350,9 +350,18 @@
      }
 }
 
+@media(max-width:991px){
+     .layout-three-content{
+          max-width:600px!important;
+     }
+     .home-layout-three .layout-three-nested{
+          max-width:600px!important; 
+     }
+}
+
 @media (max-width:768px) {
      .home-layout-three .layout-three-content { 
-          padding: 50px 30px;
+          padding: 50px 20px;
      }
      .home-layout-three {
           height: calc(100vh + 20em);
@@ -362,8 +371,34 @@
           background-repeat: no-repeat;
           background-image: url('../images/banner-3.svg');
      }
+     .layout-three-content{
+          max-width:400px!important;
+     }
+     .home-layout-three .layout-three-nested{
+          max-width:400px!important; 
+     }
 }
 
+@media (max-width:441px) {
+     .layout-three-content{
+          max-width:350px!important;
+     }
+     .home-layout-three .layout-three-nested{
+          max-width:350px!important; 
+     }
+}
+
+@media (max-width:380px) {
+     .layout-three-content{
+          max-width:300px!important;
+     }
+     .home-layout-three .layout-three-nested{
+          max-width:300px!important; 
+     }
+     .home-layout-three .layout-three-nested {
+          top: calc(500px + 80px);
+      }
+}
 /*
 #################################
 ##        Section 3 Closed     ##   
