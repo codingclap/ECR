@@ -127,13 +127,13 @@
      z-index: 2;
 }
 
-.layout-one-content .cta img {
+.home-layout-one .layout-one-content .cta img {
      width: 100%;
      max-width: 25px;
      transition: 0.2s ease-in-out;
 }
 
-.layout-one-content .cta a:hover img {
+.home-layout-one .layout-one-content .cta a:hover img {
      transform: rotate(50deg);
      transition: 0.2s ease-in-out;
 }
@@ -269,17 +269,23 @@
 ##        Section 3            ##   
 #################################
 */
+.display-visiblity{
+     display: block;
+}
+ 
 .home-layout-three {
      position: relative;
      top: 0px;
-     /* height: calc(100vh - 0em);
-     background-size: cover;
-     width: 100vw;  
-     background-position: top center;
-     background-repeat: no-repeat;
-     background-image: url('../images/banner-4.svg'); */
-}
 
+}
+.home-layout-three .layout-three-arrow{
+     position: absolute;
+     left:0;
+     right:0;
+     bottom:-70px;
+     margin:0 auto;
+     z-index:+3;
+}
 .home-layout-three .layout-three-content {
      position: absolute;
      top: 15%;
@@ -289,7 +295,7 @@
      width: 100%;
      margin: 0 auto;
      max-width: 900px;
-     background-color: #dceede;
+     background-color: #dceedee6;
      padding: 50px 50px;
      border-radius: 30px;
      min-height: 400px;
@@ -301,11 +307,11 @@
      top: calc(600px + 50px);
      left: 0;
      right: 0;
-     z-index: 2;
+     z-index: 1;
      width: 100%;
      margin: 0 auto;
      max-width: 900px;
-     background-color: #dceede;
+     background-color: #dceedee6;
      padding: 50px 50px;
      border-radius: 30px;
      min-height: 400px;
@@ -317,19 +323,39 @@
      }
 }
 
-@media(max-width:1300px) {
+@media(max-width:1400px) {
      .home-layout-three .layout-three-content { 
+          top: 10%;
+     }
+     .home-layout-three {
+          height: calc(100vh + 20em);
+          background-size: cover;
+          width: 100vw;
+          background-position: top center;
+          background-repeat: no-repeat;
+          background-image: url('../images/banner-3.svg');
+     }
+     .display-visiblity{
+          display: none;
+     }
+}
+
+@media(max-width:1300px) {
+     .home-layout-three .layout-three-content {
           top: 8%;
      }
 
      .home-layout-three .layout-three-nested {
-          top: calc(500px + 1px);
+          top: calc(500px + 40px);
      }
 }
 
 @media (max-width:768px) {
+     .home-layout-three .layout-three-content { 
+          padding: 50px 30px;
+     }
      .home-layout-three {
-          height: calc(100vh - 0em);
+          height: calc(100vh + 20em);
           background-size: cover;
           width: 100vw;
           background-position: top center;
