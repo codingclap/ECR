@@ -370,7 +370,11 @@
 
      .home-layout-three .layout-three-nested {
           max-width: 600px !important;
+          top: calc(500px + 20px);
      }
+     .home-layout-three .layout-three-arrow {
+          width: 90px;
+      }
 }
 
 @media (max-width:768px) {
@@ -403,6 +407,7 @@
 
      .home-layout-three .layout-three-nested {
           max-width: 350px !important;
+          top: calc(500px + 40px);
      }
 }
 
@@ -416,7 +421,7 @@
      }
 
      .home-layout-three .layout-three-nested {
-          top: calc(500px + 80px);
+          top: calc(500px + 90px);
      }
 }
 
