@@ -169,7 +169,10 @@ body {
 [data-color="blue"] {
   color: #374486;
 }
-
+[data-color="maroon"] {
+  color: #3f2e20;
+}
+ 
 
 
 /********** Default Color *********/
@@ -244,7 +247,9 @@ body {
 [data-heading="24px"] {
   font-size: 24px;
 }
-
+[data-heading="23px"] {
+  font-size: 23px;
+}
 
 
 /********** Default Heading *********/
@@ -305,13 +310,18 @@ body {
   [data-para="22px"] {
     font-size: 20px;
   }
+  [data-heading="23px"] {
+    font-size: 20px;
+  }
 }
 
 @media(max-width:991px) {
   [data-heading="25px"] {
     font-size: 16px;
   }
-
+  [data-heading="23px"] {
+    font-size: 19px;
+  }
   [data-para="22px"] {
     font-size: 18px;
   }

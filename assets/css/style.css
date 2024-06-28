@@ -444,7 +444,7 @@
      right: 0;
      margin: 0 auto;
      background-color: #ffffffd3;
-     min-height: 500px;
+     min-height: 200px;
      max-width: 1400px;
      border-radius: 20px;
      padding: 50px 20px;
@@ -542,5 +542,148 @@
 /*
 #################################
 ##        Section 4 Closed     ##   
+#################################
+*/
+
+
+/*
+#################################
+##        Section 5            ##   
+#################################
+*/
+.layout-five-content {
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     margin: 0 auto;
+     /* background-color: #ffffffd3; */
+     min-height: 500px;
+     max-width: 1400px;
+     border-radius: 20px;
+     padding: 50px 20px;
+}
+.home-layout-five {
+     height: calc(100vh + 0em);
+     background-size: cover;
+     width: 100%;
+     background-position: top center;
+     background-repeat: no-repeat;
+     background-image: url('../images/banner-5.svg');
+}
+.display-visiblity-1200 {
+     display: block;
+}
+.home-layout-five .testimonial-icon{
+ position: relative;
+}
+.home-layout-five .testimonial-icon::after{
+     position: absolute;
+     content:" ";
+     right:20px;
+     border:1px solid #3f2e20;
+     height: 100vh; 
+    }
+@media(max-width:1450px) {
+     .layout-five-content {
+          top: 0%;
+     }
+}
+
+@media (max-width:1400px) {
+     .layout-five-content {
+          max-width: 1200px !important;
+     }
+
+}
+
+@media (max-width:1200px) {
+     .layout-five-content {
+          max-width: 1100px !important;
+     }
+
+     .home-layout-five {
+          height: calc(100vh + 40em);
+          background-size: cover;
+          width: 100vw;
+          background-position: top center;
+          background-repeat: no-repeat;
+          background-image: url('../images/banner-5.svg');
+     }
+
+     .display-visiblity-1200 {
+          display: none;
+     }
+     .home-layout-five .testimonial-icon::after{ 
+          right:10px; 
+         }
+}
+
+
+@media (max-width:1140px) {
+     .layout-five-content {
+          max-width: 1024px !important;
+     }
+     .home-layout-five .testimonial-icon::after{ 
+          right:0px; 
+         }
+}
+
+@media (max-width:1024px) {
+     .layout-five-content {
+          max-width: 1024px !important;
+     }
+     .home-layout-five .testimonial-icon::after{ 
+          right:-10px; 
+         }
+}
+@media (max-width:991px) {
+     .home-layout-five .testimonial-icon::after{
+          display: none;
+     }
+}
+@media (max-width:820px) {
+     .layout-five-content {
+          max-width: 800px !important;
+     }
+
+     .home-layout-five {
+          height: calc(100vh + 70em);
+     }
+}
+
+@media (max-width:620px) {
+     .layout-five-content {
+          max-width: 800px !important;
+     }
+}
+
+@media (max-width:520px) {
+     .layout-five-content {
+          max-width: 600px !important;
+     }
+     .home-layout-five {
+          height: calc(100vh + 60em);
+     }
+}
+
+@media (max-width:441px) {
+     .layout-five-content {
+          max-width: 350px !important;
+     }
+     .home-layout-five {
+          height: calc(100vh + 40em);
+     }
+}
+
+@media (max-width:380px) {
+     .layout-five-content {
+          max-width: 300px !important;
+     }
+}
+
+/*
+#################################
+##        Section 5 Closed     ##   
 #################################
 */

@@ -278,17 +278,20 @@
                <div class="row justify-content-center align-items-center gap-4 gap-lg-5 mt-5">
                     <div class="col-12 col-sm-10 col-md-5 col-xl-3">
                          <img src="assets/images/placeholder.png" alt="" class="w-100 rounded-4">
-                         <h3 class="pt-3" data-heading="25px" data-font-style="roboto-bold" data-color="black">Lorem Ipsum </h3>
+                         <h3 class="pt-3" data-heading="25px" data-font-style="roboto-bold" data-color="black">Lorem
+                              Ipsum </h3>
                          <p class="pe-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     </div>
                     <div class="col-12 col-sm-10  col-md-5 col-xl-3">
                          <img src="assets/images/placeholder.png" alt="" class="w-100 rounded-4">
-                         <h3 class="pt-3" data-heading="25px" data-font-style="roboto-bold" data-color="black">Lorem Ipsum </h3>
+                         <h3 class="pt-3" data-heading="25px" data-font-style="roboto-bold" data-color="black">Lorem
+                              Ipsum </h3>
                          <p class="pe-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     </div>
                     <div class="col-12 col-sm-10 col-md-5 col-xl-3">
                          <img src="assets/images/placeholder.png" alt="" class="w-100 rounded-4">
-                         <h3 class="pt-3" data-heading="25px" data-font-style="roboto-bold" data-color="black">Lorem Ipsum </h3>
+                         <h3 class="pt-3" data-heading="25px" data-font-style="roboto-bold" data-color="black">Lorem
+                              Ipsum </h3>
                          <p class="pe-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     </div>
                </div>
@@ -301,7 +304,196 @@
 #############################
 -->
 
+
+
+
+     <!--
+#############################
+##     Section 5           ##
+#############################
+-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+     <style>
+          .swiper-container {
+               width: 100%;
+               height: 100%;
+          }
+
+          .swiper-slide {
+               text-align: center;
+               font-size: 18px;
+               /* background: #fff; */
+               display: flex;
+               justify-content: center;
+               align-items: center;
+          }
+
+          .swiper-slide img {
+               display: block;
+               width: 100%;
+               height: 100%;
+               object-fit: cover;
+               max-width: 270px;
+          }
+
+          .swiper-container {
+               margin-left: auto;
+               margin-right: auto;
+          }
+
+          .swiper-button-prev {
+               background-image: url(./assets/images/long-arrow.svg) !important;
+               background-repeat: no-repeat;
+               background-size: 100% auto;
+               background-position: center;
+               width: 10%;
+               transform: rotate(180deg);
+          }
+
+          .swiper-button-next {
+               background-image: url(./assets/images/long-arrow.svg) !important;
+               background-repeat: no-repeat;
+               background-size: 100% auto;
+               background-position: center;
+               width: 10%;
+          }
+
+          .swiper-button-next::after {
+               display: none;
+          }
+
+          .swiper-button-prev::after {
+               display: none;
+          }
+
+          .swiper-button-next.swiper-button-disabled,
+          .swiper-button-prev.swiper-button-disabled {
+               opacity: 1;
+          }
+
+          @media (max-width:991px) {
+               .swiper-button-next {
+                    display: none;
+               }
+
+               .swiper-button-prev {
+                    display: none;
+               }
+
+               .swiper-slide img { 
+                    max-width: 180px;
+               }
+          }
+     </style>
+     <section class="home-layout-five position-relative">
+          <!-- <img src="assets/images/banner-5.svg" alt="" class="w-100 display-visiblity-1200"> -->
+
+          <div class="layout-five-content">
+               <h2 class="text-center" data-heading="3.7em" data-font-style="roboto-bold" data-color="maroon">What our
+                    Partners Say
+               </h2>
+
+               <div class="row justify-content-center align-items-center gap-4 gap-lg-5 mt-5">
+                    <!-- Slider main container -->
+                    <div class="swiper">
+                         <!-- Additional required wrapper -->
+                         <div class="swiper-wrapper">
+                              <!-- Slides -->
+                              <div class="swiper-slide">
+                                   <div class="testimonial-card">
+                                        <div class="row justify-content-center align-items-center">
+                                             <div class="col-12 col-lg-4">
+                                                  <div
+                                                       class="testimonial-icon d-flex justify-content-center align-items-center">
+                                                       <img src="assets/images/testimonal-imag.png" alt=""
+                                                            class="w-100">
+                                                  </div>
+                                             </div>
+                                             <div class="col-12 col-lg-5">
+                                                  <div class="testimonal-content text-center text-lg-start">
+                                                       <p data-heading="23px" class="py-3"
+                                                            data-font-style="roboto-regular" data-color="black">Lorem
+                                                            ipsum dolor sit amet, consectetuer
+                                                            adipiscing elit, sed diam nonummy nibh euismod
+                                                            tincidunt ut laoreet dolore magna aliquam erat
+                                                            volutpat. Ut wisi enim ad minim veniam, quis
+                                                            nostrud exerci tation ullamcorper suscipit</p>
+                                                       <h3 class="pt-2 mb-0" data-heading="25px"
+                                                            data-font-style="roboto-bold" data-color="black">Name</h3>
+                                                       <p class="pe-2">Designation</p>
+
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="swiper-slide">
+                                   <div class="testimonial-card">
+                                        <div class="row justify-content-center align-items-center">
+                                             <div class="col-12 col-lg-4">
+                                                  <div
+                                                       class="testimonial-icon d-flex justify-content-center align-items-center">
+                                                       <img src="assets/images/testimonal-imag.png" alt=""
+                                                            class="w-100">
+                                                  </div>
+                                             </div>
+                                             <div class="col-12 col-lg-5">
+                                                  <div class="testimonal-content text-center text-lg-start">
+                                                       <p data-heading="23px" class="py-3"
+                                                            data-font-style="roboto-regular" data-color="black">Lorem
+                                                            ipsum dolor sit amet, consectetuer
+                                                            adipiscing elit, sed diam nonummy nibh euismod
+                                                            tincidunt ut laoreet dolore magna aliquam erat
+                                                            volutpat. Ut wisi enim ad minim veniam, quis
+                                                            nostrud exerci tation ullamcorper suscipit</p>
+                                                       <h3 class="pt-2 mb-0" data-heading="25px"
+                                                            data-font-style="roboto-bold" data-color="black">Name</h3>
+                                                       <p class="pe-2">Designation</p>
+
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+
+                         </div>
+                         <!-- If we need pagination -->
+                         <div class="swiper-pagination"></div>
+
+                         <!-- If we need navigation buttons -->
+                         <div class="swiper-button-prev"> </div>
+                         <div class="swiper-button-next"> </div>
+
+                    </div>
+               </div>
+          </div>
+
+     </section>
+     <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+     <!-- Initialize Swiper -->
+     <script>
+          var swiper = new Swiper(".swiper", {
+               navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+               },
+
+          });
+     </script>
+     <!--
+#############################
+##     Section 5 Closed    ##
+#############################
+-->
+
+
+
+
      <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+
 </body>
 
 </html>
