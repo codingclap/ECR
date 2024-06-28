@@ -381,7 +381,9 @@
      .home-layout-three .layout-three-content {
           padding: 50px 20px;
      }
-
+     .home-layout-three .layout-three-nested { 
+          top: calc(500px + 80px);
+     }
      .home-layout-three {
           height: calc(100vh + 20em);
           background-size: cover;
@@ -399,7 +401,7 @@
           max-width: 400px !important;
      }
 }
-
+ 
 @media (max-width:441px) {
      .layout-three-content {
           max-width: 350px !important;
