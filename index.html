@@ -370,8 +370,23 @@
           .swiper-button-prev.swiper-button-disabled {
                opacity: 1;
           }
+          .swiper-pagination{
+               display: none;
+          }
+          .swiper-pagination-bullet-active {
+               background-color: #4276f6;
+          }
+
+          .swiper-pagination-bullet {
+               width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 10px));
+               height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 10px));
+                
+          }
 
           @media (max-width:991px) {
+               .swiper-pagination{
+               display: block;
+          }
                .swiper-button-next {
                     display: none;
                }
@@ -380,7 +395,7 @@
                     display: none;
                }
 
-               .swiper-slide img { 
+               .swiper-slide img {
                     max-width: 180px;
                }
           }
@@ -457,14 +472,15 @@
                               </div>
 
                          </div>
-                         <!-- If we need pagination -->
-                         <div class="swiper-pagination"></div>
+
 
                          <!-- If we need navigation buttons -->
                          <div class="swiper-button-prev"> </div>
                          <div class="swiper-button-next"> </div>
+                         <!-- If we need pagination -->
 
                     </div>
+                    <div class="swiper-pagination"></div>
                </div>
           </div>
 
@@ -475,9 +491,14 @@
      <!-- Initialize Swiper -->
      <script>
           var swiper = new Swiper(".swiper", {
+               loop: true,
                navigation: {
                     nextEl: ".swiper-button-next",
                     prevEl: ".swiper-button-prev",
+               },
+               pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
                },
 
           });
