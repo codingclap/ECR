@@ -355,7 +355,7 @@
      }
 
      .home-layout-three .layout-three-nested {
-          top: calc(450px + 0px);
+          /* top: calc(450px + 0px); */
      }
 
      .home-layout-three .layout-three-arrow {
@@ -364,14 +364,14 @@
 }
 @media(max-width:1024px){
      .home-layout-three .layout-three-nested {
-          top: 80px;
-          position: relative;
+          /* top: 80px; */
+          position: unset;
           margin-top:20px;
      }
 
      .home-layout-three .layout-three-content {
           top: 10%;
-          position: relative; 
+          position: unset; 
            
      }
 }
