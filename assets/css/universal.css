@@ -172,7 +172,9 @@ body {
 [data-color="maroon"] {
   color: #3f2e20;
 }
- 
+[data-color="darkgray"] {
+  color: #3f2e20;
+}
 
 
 /********** Default Color *********/

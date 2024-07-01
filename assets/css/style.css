@@ -712,12 +712,9 @@
 
 .home-layout-six {
      background-color: #fffcf8;
+     min-height:300px;
 }
-
-.layout-six-content {
-     
-}
-
+ 
 .layout-six-content h2 {
      position: relative;
 }
@@ -745,12 +742,14 @@
      bottom: 0;
      right: 8%;
 }
-.layout-six-logo img{
+
+.layout-six-logo img {
      display: flex;
      justify-content: center;
      max-width: 300px;
      margin: 0 auto;
 }
+
 @media(max-width:1550px) {
      .layout-six-content h2::before {
           width: 30%;
@@ -768,9 +767,10 @@
 }
 
 @media(max-width:1150px) {
-     .layout-six-logo img { 
-          max-width: 200px; 
-      }
+     .layout-six-logo img {
+          max-width: 200px;
+     }
+
      .layout-six-content h2::before {
           width: 25%;
           height: 1px;
@@ -788,11 +788,12 @@
      }
 }
 
-@media(max-width:991px){
-     .layout-six-logo img { 
-          max-width: 150px; 
-      }
+@media(max-width:991px) {
+     .layout-six-logo img {
+          max-width: 150px;
+     }
 }
+
 @media(max-width:500px) {
      .layout-six-content h2::before {
           width: 20%;
@@ -809,7 +810,17 @@
           bottom: 0;
           right: 5%;
      }
-     .layout-six-logo img { 
-          max-width: 120px; 
-      }
+
+     .layout-six-logo img {
+          max-width: 120px;
+     }
+}
+
+
+
+.footer{
+     background-color: #fffcf8;
+}
+.footer-content img {
+     max-width: 220px;
 }
