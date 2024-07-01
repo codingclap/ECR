@@ -703,7 +703,7 @@
      }
 
      .home-layout-five {
-          height: calc(100vh + 60em);
+          height: calc(100vh + 8em);
      }
 }
 
@@ -713,7 +713,7 @@
      }
 
      .home-layout-five {
-          height: calc(100vh + 40em);
+          height: calc(100vh + 12em);
      }
 }
 
@@ -835,6 +835,7 @@
      .layout-six-logo img {
           max-width: 120px;
      }
+     
 }
 
 
@@ -844,4 +845,22 @@
 }
 .footer-content img {
      max-width: 220px;
+}
+
+
+@media(max-width:500px){
+     .footer-content img {
+          max-width: 180px;
+      }
+}
+
+@media(max-width:441px){
+     .footer-content img {
+          max-width: 150px;
+      }
+}
+@media(max-width:320px){
+     .footer-content img {
+          max-width: 120px;
+      }
 }
