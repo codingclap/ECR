@@ -300,13 +300,13 @@
      background-color: #dceedee6;
      padding: 50px 50px;
      border-radius: 30px;
-     min-height: 400px;
+     min-height: 350px;
 }
 
 
 .home-layout-three .layout-three-nested {
      position: absolute;
-     top: calc(600px + 50px);
+     top: calc(550px + 30px);
      left: 0;
      right: 0;
      z-index: 1;
@@ -316,19 +316,19 @@
      background-color: #dceedee6;
      padding: 50px 50px;
      border-radius: 30px;
-     min-height: 400px;
+     min-height: 350px;
 }
 
 @media(max-width:1600px) {
      .home-layout-three .layout-three-nested {
-          top: calc(600px + 10px);
+          top: calc(550px + 10px);
      }
 }
 
 @media(max-width:1400px) {
 
      .home-layout-three .layout-three-nested {
-          top: calc(520px + 10px);
+          top: calc(500px + 10px);
      }
 
      .home-layout-three .layout-three-content {
@@ -355,14 +355,26 @@
      }
 
      .home-layout-three .layout-three-nested {
-          top: calc(500px + 20px);
+          top: calc(450px + 0px);
      }
 
      .home-layout-three .layout-three-arrow {
           width: 110px;
      }
 }
+@media(max-width:1024px){
+     .home-layout-three .layout-three-nested {
+          top: 80px;
+          position: relative;
+          margin-top:20px;
+     }
 
+     .home-layout-three .layout-three-content {
+          top: 10%;
+          position: relative; 
+           
+     }
+}
 @media(max-width:991px) {
      .layout-three-content {
           max-width: 600px !important;
@@ -370,7 +382,7 @@
 
      .home-layout-three .layout-three-nested {
           max-width: 600px !important;
-          top: calc(500px + 20px);
+          /* top: calc(500px + 20px); */
      }
 
      .home-layout-three .layout-three-arrow {
@@ -384,7 +396,7 @@
      }
 
      .home-layout-three .layout-three-nested {
-          top: calc(500px + 80px);
+          /* top: calc(500px + 80px); */
      }
 
      .home-layout-three {
@@ -412,7 +424,7 @@
 
      .home-layout-three .layout-three-nested {
           max-width: 350px !important;
-          top: calc(500px + 40px);
+          /* top: calc(500px + 40px); */
      }
 }
 
@@ -426,7 +438,7 @@
      }
 
      .home-layout-three .layout-three-nested {
-          top: calc(500px + 90px);
+          /* top: calc(500px + 90px); */
      }
 }
 
