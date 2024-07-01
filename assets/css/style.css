@@ -400,7 +400,7 @@
      }
 
      .home-layout-three {
-          height: calc(100vh + 20em);
+          /* height: calc(100vh + 20em); */
           background-size: cover;
           width: 100vw;
           background-position: top center;
