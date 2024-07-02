@@ -628,6 +628,7 @@
      background-position: top center;
      background-repeat: no-repeat;
      background-image: url('../images/banner-5.svg');
+     padding:80px 0px;
 }
 
 .layout-five-content {
@@ -719,7 +720,7 @@
      }
      .home-layout-five {
           height: auto;
-          padding: 2em 0px;
+          padding: 4em 0px;
      }
 }
 
