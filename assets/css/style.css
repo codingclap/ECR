@@ -362,19 +362,26 @@
           width: 110px;
      }
 }
-@media(max-width:1024px){
+
+@media(max-width:1024px) {
+     .home-layout-three {
+          height: auto;
+          padding: 3em 0px;
+     }
+
      .home-layout-three .layout-three-nested {
           /* top: 80px; */
           position: unset;
-          margin-top:20px;
+          margin-top: 20px;
      }
 
      .home-layout-three .layout-three-content {
           top: 10%;
-          position: unset; 
-           
+          position: unset;
+
      }
 }
+
 @media(max-width:991px) {
      .layout-three-content {
           max-width: 600px !important;
@@ -466,15 +473,17 @@
      border-radius: 20px;
      padding: 50px 20px;
 }
+
 .home-layout-four {
      height: calc(100vh + 3em);
 }
+
 .display-visiblity-1200 {
      display: block;
 }
 
 @media(max-width:1450px) {
-     .layout-four-content { 
+     .layout-four-content {
           top: 10%;
      }
 }
@@ -513,11 +522,15 @@
 }
 
 @media (max-width:1024px) {
-     
+     .home-layout-four{
+          height: auto;
+          padding: 3em 0px;
+     }
      .layout-four-content {
           position: unset;
           max-width: 800px !important;
      }
+
      /* .home-layout-four {
           height: calc(100vh + 25em);
      } */
@@ -526,13 +539,15 @@
 @media (max-width:820px) {
      .layout-four-content {
           max-width: 600px !important;
+          padding: 20px;
      }
-
+     
      /* .home-layout-four {
           height: calc(100vh + 21em);
      } */
 }
-@media (max-width:768px) { 
+
+@media (max-width:768px) {
 
      /* .home-layout-four {
           height: calc(100vh + 65em);
@@ -543,16 +558,19 @@
      .layout-four-content {
           max-width: 500px !important;
      }
+
      /* .home-layout-four {
           height: calc(100vh + 55em);
      } */
 }
+
 @media (max-width:576px) {
-     
+
      /* .home-layout-four {
           height: calc(100vh + 62em);
      } */
 }
+
 @media (max-width:520px) {
      .layout-four-content {
           max-width: 400px !important;
@@ -577,6 +595,7 @@
      .layout-four-content {
           max-width: 300px !important;
      }
+
      /* .home-layout-four {
           height: calc(100vh + 40em);
      } */
@@ -682,10 +701,16 @@
 @media (max-width:1024px) {
      .layout-five-content {
           max-width: 1024px !important;
+          padding:20px;
+          position: unset;
      }
 
      .home-layout-five .testimonial-icon::after {
           right: -10px;
+     }
+     .home-layout-five {
+          height: auto;
+          padding: 2em 0px;
      }
 }
 
@@ -700,9 +725,9 @@
           max-width: 800px !important;
      }
 
-     .home-layout-five {
+     /* .home-layout-five {
           height: calc(100vh + 5em);
-     }
+     } */
 }
 
 @media (max-width:620px) {
@@ -716,9 +741,9 @@
           max-width: 600px !important;
      }
 
-     .home-layout-five {
+     /* .home-layout-five {
           height: calc(100vh + 8em);
-     }
+     } */
 }
 
 @media (max-width:441px) {
@@ -726,15 +751,15 @@
           max-width: 350px !important;
      }
 
-     .home-layout-five {
+     /* .home-layout-five {
           height: calc(100vh + 12em);
-     }
+     } */
 }
 
 @media (max-width:380px) {
-     .layout-five-content {
+     /* .layout-five-content {
           max-width: 300px !important;
-     }
+     } */
 }
 
 /*
@@ -747,9 +772,9 @@
 
 
 .home-layout-six {
-     background-color: #fffcf8; 
+     background-color: #fffcf8;
 }
- 
+
 .layout-six-content h2 {
      position: relative;
 }
@@ -849,32 +874,34 @@
      .layout-six-logo img {
           max-width: 120px;
      }
-     
+
 }
 
 
 
-.footer{
+.footer {
      background-color: #fffcf8;
 }
+
 .footer-content img {
      max-width: 220px;
 }
 
 
-@media(max-width:500px){
+@media(max-width:500px) {
      .footer-content img {
           max-width: 180px;
-      }
+     }
 }
 
-@media(max-width:441px){
+@media(max-width:441px) {
      .footer-content img {
           max-width: 150px;
-      }
+     }
 }
-@media(max-width:320px){
+
+@media(max-width:320px) {
      .footer-content img {
           max-width: 120px;
-      }
+     }
 }
