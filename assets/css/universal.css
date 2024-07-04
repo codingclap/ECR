@@ -258,6 +258,7 @@ body {
   background-color: #f0f0f0;
 }
 
+
 [data-bgcolor="lightgray"] {
   background-color: rgba(0, 130, 207, 0.05);
 }
@@ -287,6 +288,10 @@ body {
 }
 [data-color="darkgray"] {
   color: #C5C5C5;
+}
+
+.border-secondary{
+  color:#949494;
 }
 
 
@@ -477,3 +482,5 @@ body {
 }
 
 @media (max-width:425px) {}
+
+
