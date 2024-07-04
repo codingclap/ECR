@@ -540,13 +540,15 @@
 
 .quotation-img::after {
      position: absolute;
-     content: "";
-     width: 60%;
-     height: 60px;
-     top:0;
-     background-image: url('../images/quotation.svg');
-     background-repeat: no-repeat;
-     background-size:contain;
+    content: "";
+    width: 60%;
+    height: 60px;
+    top: -10px;
+    left: 0px;
+    background-image: url(../images/quotation.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
 }
 
 .display-visiblity-1200 {
