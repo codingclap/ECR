@@ -436,6 +436,9 @@ body {
   [data-heading="23px"] {
     font-size: 20px;
   }
+  [data-heading="27px"] {
+    font-size: 25px;
+  }
 }
 
 @media(max-width:991px) {
@@ -459,6 +462,10 @@ body {
 
   [data-heading="3.7em"] {
     font-size: 2.5em;
+  }
+
+  [data-heading="27px"] {
+    font-size: 24px;
   }
 
 }
