@@ -586,7 +586,7 @@
 
 .home-layout-five {
      height: auto;
-     background-size: cover;
+     background-size: 3000px;
      width: 100%;
      background-position: top center;
      background-repeat: no-repeat;
@@ -660,7 +660,8 @@
 
      .home-layout-five {
           height: auto;
-          background-size: cover;
+          background-size: 3200px;
+          /* background-size: cover; */
           width: 100vw;
           background-position: top center;
           background-repeat: no-repeat;
@@ -699,6 +700,7 @@
      }
 
      .home-layout-five {
+          background-size: 3500px;
           height: auto;
           padding: 4em 0px;
      }
