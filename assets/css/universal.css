@@ -39,7 +39,7 @@ body {
   width: 100%;
   max-width: 1600px;
   margin: 0 auto;
-  padding: 10px 15px;
+  padding: 10px 25px;
 }
 
 .navbar-section {
@@ -121,13 +121,13 @@ body {
 
 @media(max-width:1266px) {
   .navbar-nav {
-       column-gap: 1em;
+    column-gap: 1em;
   }
 }
 
 @media (max-width:768px) {
   .navbar-section {
-       min-height: 103px;
+    min-height: 103px;
   }
 
 }
@@ -283,15 +283,17 @@ body {
 [data-color="blue"] {
   color: #374486;
 }
+
 [data-color="maroon"] {
   color: #3f2e20;
 }
+
 [data-color="darkgray"] {
   color: #C5C5C5;
 }
 
-.border-secondary{
-  color:#949494;
+.border-secondary {
+  color: #949494;
 }
 
 
@@ -359,6 +361,7 @@ body {
 [data-heading="28px"] {
   font-size: 28px;
 }
+
 [data-heading="27px"] {
   font-size: 27px;
 }
@@ -370,6 +373,7 @@ body {
 [data-heading="24px"] {
   font-size: 24px;
 }
+
 [data-heading="23px"] {
   font-size: 23px;
 }
@@ -419,9 +423,17 @@ body {
 }
 
 /********** Default paragraph *********/
-@media(max-width:1400px){
+@media(max-width:1400px) {
   [data-heading="25px"] {
     font-size: 22px;
+  }
+
+  [data-heading="4.5em"] {
+    font-size: 4em;
+  }
+
+  [data-heading="30px"] {
+    font-size: 25px;
   }
 }
 
@@ -439,9 +451,11 @@ body {
   [data-para="22px"] {
     font-size: 20px;
   }
+
   [data-heading="23px"] {
     font-size: 20px;
   }
+
   [data-heading="27px"] {
     font-size: 25px;
   }
@@ -451,9 +465,11 @@ body {
   [data-heading="25px"] {
     font-size: 16px;
   }
+
   [data-heading="23px"] {
     font-size: 19px;
   }
+
   [data-para="22px"] {
     font-size: 18px;
   }
@@ -482,10 +498,11 @@ body {
   [data-heading="4.5em"] {
     font-size: 2.5em;
   }
+
   [data-para="22px"] {
     font-size: 16px;
   }
-   
+
 
 }
 
@@ -494,9 +511,7 @@ body {
   [data-heading="30px"] {
     font-size: 18px;
   }
- 
+
 }
 
 @media (max-width:425px) {}
-
-

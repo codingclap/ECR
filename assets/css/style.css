@@ -29,12 +29,18 @@
      transform: rotate(50deg);
      transition: 0.2s ease-in-out;
 }
-
+@media (max-width:1400px) {
+     .home-layout-one .layout-one-content {
+          top: 40px;
+          left: 0;
+          padding: 10px 35px;
+     }
+}
 @media (max-width:1200px) {
      .home-layout-one .layout-one-content {
           top: 40px;
           left: 0;
-          padding: 10px 20px;
+          padding: 10px 25px;
      }
 }
 
