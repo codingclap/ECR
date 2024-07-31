@@ -742,7 +742,10 @@
      .layout-five-content {
           max-width: 350px !important;
      }
-
+     .home-layout-five {
+          background-size: 4200px;
+         
+     }
      /* .home-layout-five {
           height: calc(100vh + 12em);
      } */
