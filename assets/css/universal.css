@@ -39,7 +39,7 @@ body {
   width: 100%;
   max-width: 1600px;
   margin: 0 auto;
-  padding: 10px 25px;
+  padding: 10px 35px;
 }
 
 .navbar-section {
@@ -125,6 +125,11 @@ body {
   }
 }
 
+@media(max-width:1200px){
+  .nav-container { 
+    padding: 10px 25px;
+  }
+}
 @media (max-width:768px) {
   .navbar-section {
     min-height: 103px;
