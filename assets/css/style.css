@@ -700,7 +700,7 @@
      }
 
      .home-layout-five {
-          background-size: 3500px;
+          background-size: 3266px;
           height: auto;
           padding: 4em 0px;
      }
@@ -720,6 +720,10 @@
      /* .home-layout-five {
           height: calc(100vh + 5em);
      } */
+     .home-layout-five {
+          background-size: 4200px;
+         
+     }
 }
 
 @media (max-width:620px) {
