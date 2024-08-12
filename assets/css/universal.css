@@ -118,7 +118,13 @@ body {
   margin-top: 8px;
   background-color: #363636;
 }
+.padding-heading1{
+  padding-left:12px;
+}
 
+.padding-heading2{
+  padding-left:18px;
+}
 @media(max-width:1266px) {
   .navbar-nav {
     column-gap: 1em;
@@ -507,7 +513,13 @@ body {
   [data-para="22px"] {
     font-size: 16px;
   }
-
+  .padding-heading1{
+    padding-left:8px;
+ }
+ 
+ .padding-heading2{
+    padding-left:10px;
+ }
 
 }
 
@@ -519,4 +531,12 @@ body {
 
 }
 
-@media (max-width:425px) {}
+@media (max-width:425px) {
+  .padding-heading1{
+    padding-left:3px;
+ }
+ 
+ .padding-heading2{
+    padding-left:5px;
+ } 
+}
